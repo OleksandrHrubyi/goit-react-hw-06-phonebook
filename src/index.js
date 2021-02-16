@@ -3,7 +3,6 @@ import App from "./components/App/App";
 import { Provider } from "react-redux";
 import { store, persistor } from "./redux/Contacts/store";
 import { PersistGate } from "redux-persist/integration/react";
-
 import "index.css";
 
 ReactDOM.render(
